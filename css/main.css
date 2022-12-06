@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+
+.search-box{
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+.maincontent {
+    /* background-color: rgb(200, 200, 200); */
+    height: 100vh;
+    width: 100vw;
+    --bs-bg-opacity: 1;
+}
+
+/* .bg-maincontent {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  } */
+
+.center {
+    display: flex;
+    justify-content: center;
+    /* align-items: 50vh; */
+}
+
+
+th {
+    font-size: 22px;
+    text-align: left;
+    padding: 10px;
+    /* color: rgb(202, 202, 202); */
+    height: 40px;
+    /* width: 100px; */
+}
+
+td {
+    width: 150px;
+    /* height: 100px; */
+    /* padding-left: 20px; */
+    /* color: #ffffff; */
+    /* padding-right: 100px; */
+}
+
+.actions-cell {
+    width: 350px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+img {
+    width: 150px;
+}
+
+.btn {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+}
+
+.book-table{
+    margin-top: 20px;
+}
+.new-book {
+    /* color: lightblue; */
+    /* padding-top: 10px; */
+    color: rgb(38, 197, 171);
+    /* text-decoration: underline; */
+    font-size: 16px;
+}
+
+.new-book:hover {
+    color: rgb(42, 109, 110);
+    cursor: pointer;
+}
+
+.new-book:active {
+    color: rgb(0, 53, 50);
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    margin: 15% auto;
+    /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40vw;
+}
+
+.modal.open {
+    display: block;
+}
+
+.book-desc {
+    color: #ffffff;
+}
+
+.modal-header{
+    color:#00e7ff;
+}
